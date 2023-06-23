@@ -18,7 +18,8 @@
     "experimentalDecorators": true,
     "typeRoots": ["node", "node_modules/@types", "./typings"],
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "src"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"],
