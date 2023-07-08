@@ -4,6 +4,6 @@ export const HTML_FONT_SIZE = 16;
 export const pxToRem = (value: number) => {
   return `${value / HTML_FONT_SIZE}rem`;
 };
-export const alpha = (color: "#000000", opacity: number): string => {
+export const alpha = (color: any, opacity: number): string => {
   return muiAlpha(color, opacity);
 };
